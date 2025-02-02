@@ -1,0 +1,29 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Python virtual environment & cache
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Terraform state files
+terraform.tfstate
+terraform.tfstate.backup
+.terraform/
+*.tfvars
+
+# Ignore Kubernetes configs
+kubeconfig
+
+# Ignore Docker-related files
+*.log
+*.swp
+docker-compose.override.yml
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+*.bak
